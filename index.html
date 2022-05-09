@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarizer</title>
+</head>
+<body>
+    
+    <form action="/" method="post">
+        <label for="cityInput">Input text: </label>
+        <textarea id="inputText" name="textInput"
+          rows="4" cols="40">
+        </textarea>
+
+        <h2> OR</h2>
+        <label for="urlInput">Input url of website: </label>
+        <input type="text" name="urlInput" id="urlInput"></input>
+
+
+        <br>
+        <br>
+        <br>
+
+        <label for="cityInput">Number of sentences for summary</label>
+        <input type="number" name="inputSentences" id="sentences"></input>
+        <button type="submit">Summarize</button>
+    </form>
+
+</body>
+</html>
