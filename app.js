@@ -1,4 +1,4 @@
-// api key = 3c519881ab0249a0812f3f4f57bf7054
+
 const express = require("express");
 const bodyParser = require("body-parser")
 const https = require("https");
@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
 app.post("/", function (req,res) {
     console.log("Post request received");
 
-    const apikey = "3c519881ab0249a0812f3f4f57bf7054";
+    const apikey = "";
     const textInput = req.body.textInput;
 
     var docInputUrl = "";
